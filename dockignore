@@ -1,0 +1,54 @@
+# Python environment
+env/
+venv/
+.venv/
+ENV/
+
+# Python cache / compiled files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Docker intermediate build files
+build/
+Dockerfile.local
+*.dockerignore
+
+# Logs and temp files
+*.log
+*.tmp
+*.csv
+*.DS_Store
+*.ini
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+
+# IDE / Editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Git metadata
+/.git
+.gitignore
+README.md
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Local data (if you have another folder with large datasets)
+/data/your-local-training-data/
+
+# Development/test files
+tests/
+*.md
+*.toml
+*.
